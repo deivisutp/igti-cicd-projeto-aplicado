@@ -61,6 +61,9 @@ jobs:
           username: ${{ env.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_PASSWORD }}
 
+      - name: CMOD dockerHub
+        run: chmod +x mvnw
+
       - name: Maven Clean Package and Push to Dockerhub
         run: |
           ./mvnw --no-transfer-progress clean package \
