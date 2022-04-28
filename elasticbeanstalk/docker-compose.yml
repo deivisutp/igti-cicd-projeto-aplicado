@@ -12,7 +12,7 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_PASSWORD: postgres"
       POSTGRES_DB: "deivisutp"
     ports:
       - "15432:5432"
