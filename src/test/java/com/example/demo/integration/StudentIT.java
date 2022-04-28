@@ -45,7 +45,7 @@ public class StudentIT {
     @Test
     void canRegisterNewStudent() throws Exception {
         //given
-        String name = String.format(
+        String name = String.format(   
                 "%s %s",
                 faker.name().firstName(),
                 faker.name().lastName()
