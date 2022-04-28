@@ -53,11 +53,10 @@ public class StudentIT {
 
         Student student = new Student(
                 name,
-                String.format("%s@amigoscode.edu",
+                String.format("%s@gmail.com",
                         StringUtils.trimAllWhitespace(name.trim().toLowerCase())),
                 Gender.FEMALE
         );
-
         //when
         ResultActions resultActions = mockMvc
                 .perform(post("/api/v1/students")
@@ -81,7 +80,7 @@ public class StudentIT {
                 faker.name().lastName()
         );
 
-        String email = String.format("%s@amigoscode.edu",
+        String email = String.format("%s@gmail.com",
                 StringUtils.trimAllWhitespace(name.trim().toLowerCase()));
 
         Student student = new Student(
