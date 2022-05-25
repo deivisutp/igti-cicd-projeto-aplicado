@@ -18,8 +18,8 @@ env:
   DOCKER_HUB_USERNAME: deivisutp
   # AWS & Elastic Bean Stalk
   AWS_REGION: sa-east-1
-  EB_ENVIRONMENT_NAME: Springbootreactfullstackenv2-env
-  EB_APPLICATION_NAME: springbootreactfullstack-env2
+  EB_ENVIRONMENT_NAME: Springbootreactfullstack-env
+  EB_APPLICATION_NAME: springboot-react-fullstack
   EB_DEPLOYMENT_PACKAGE: elasticbeanstalk/docker-compose.yml
 
 jobs:
