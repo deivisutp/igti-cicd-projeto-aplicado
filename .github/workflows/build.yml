@@ -32,6 +32,7 @@ jobs:
         with:
           java-version: ${{ env.JAVA_VERSION }}
       - run:  git update-index --chmod=+x mvnw
+      - run: chmod +x mvnw
       - name: Maven Clean Package
         run:
           ./mvnw --no-transfer-progress clean package -P build-frontend

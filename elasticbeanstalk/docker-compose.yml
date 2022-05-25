@@ -1,24 +1,9 @@
 version: "3.8"
 services:
   backend:
-    image: "deivisutp/springboot-react-fullstack:30.6.2021.1.36.21"
+    image: "deivisutp/springboot-react-fullstack:latest"
     ports:
       - "80:8080"
     restart: "always"
     environment:
       SPRING_PROFILES_ACTIVE: dev
-
-  postgres-compose:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: postgres"
-      POSTGRES_DB: "deivisutp"
-    ports:
-      - "15432:5432"
-    networks:m
-      - commons-api
-
-  networks:
-    commons-api:
-      driver: bridge
