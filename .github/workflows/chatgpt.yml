@@ -8,7 +8,7 @@ jobs:
     name: ChatGTP explain code
     steps:
       - name: ChatGTP explain code
-        uses: deivisutp/igti-cicd-projeto-aplicado@v1
+        uses: deivisutp/igti-cicd-projeto-aplicado
         with:
           openai_api_key: ${{ secrets.openai_api_key }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
