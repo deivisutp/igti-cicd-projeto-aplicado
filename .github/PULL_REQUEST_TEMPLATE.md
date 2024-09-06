@@ -18,14 +18,15 @@ Please delete options that are not relevant.
 Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
 
 - [ ] Test A
-- [ ] Test B   
- 
+- [ ] Test B
+
 **Test Configuration**:
-* Operation System:
-* Browser:
-* Version:
- 
-# Checklist: 
+
+- Operation System:
+- Browser:
+- Version:
+
+# Checklist:
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
@@ -35,4 +36,5 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 - [ ] Any dependent changes have been merged and published in downstream modules
 
 # Additional information:
+
 Add any other relevant information about the pull request.
