@@ -62,7 +62,8 @@ class StudentServiceTest {
                 .save(studentArgumentCaptor.capture());
 
         Student capturedStudent = studentArgumentCaptor.getValue();
-        
+
+        student = null;
         assertThat(capturedStudent).isEqualTo(student);
     }
 
