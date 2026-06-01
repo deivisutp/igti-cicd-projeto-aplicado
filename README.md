@@ -16,3 +16,7 @@ The technologies envolved in this project:
 - Software Deployment Automation with Github Actions
 - Software Deployment Monitoring with Slack
 - Unit and Integration Testing
+
+<h1 align="center">
+  <img alt="igti" title="igti" src="igti.drawio.png" />
+</h1>
